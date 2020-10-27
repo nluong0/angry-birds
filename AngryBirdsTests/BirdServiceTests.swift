@@ -14,6 +14,7 @@ class BirdServiceTests: XCTestCase {
 
     override func setUp() {
         self.systemUnderTest = BirdService()
+        print("setup")
     }
 
     override func tearDown() {
